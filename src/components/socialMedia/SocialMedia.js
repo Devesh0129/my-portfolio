@@ -43,7 +43,17 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-
+      {socialMediaLinks.phone ? (
+        <a
+          href={`tel:${socialMediaLinks.phone}`}
+          className="icon-button google"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-phone" style={{transform: "scaleX(-1)"}}></i>
+          <span></span>
+        </a>
+      ) : null}
       {socialMediaLinks.gitlab ? (
         <a
           href={socialMediaLinks.gitlab}

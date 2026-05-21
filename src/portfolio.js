@@ -35,6 +35,7 @@ const socialMediaLinks = {
   github: "https://github.com/Devesh0129",
   linkedin: "https://www.linkedin.com/in/deveshtalsania33/",
   gmail: "talsaniadevesh29@gmail.com",
+  phone: "+4915560834263",
   display: true
 };
 
@@ -96,7 +97,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Stuttgartt",
-      // logo: require("./assets/images/stuttgartLogo.png"),
+      logo: require("./assets/images/stuttgartLogo.jpg"),
       subHeader: "M.Sc. in Computer Science, Major: Autonomous Systems",
       duration: "September 2024 - Present",
       desc: "Focusing on Autonomous Systems and expanding knowledge in AI, distributed systems and software engineering.",
@@ -107,7 +108,7 @@ const educationInfo = {
     },
     {
       schoolName: "Gujarat Technological University",
-      // logo: require("./assets/images/gtuLogo.png"),
+      logo: require("./assets/images/GTULogo.png"),
       subHeader: "B.E. in Computer Engineering",
       duration: "August 2018 - May 2022",
       desc: "Studied core computer engineering with focus on software development and web technologies.",
@@ -140,8 +141,9 @@ const workExperiences = {
     {
       role: "Student Assistant (HIWI)",
       company: "IPVS - University of Stuttgart",
-      // companylogo: require("./assets/images/stuttgartLogo.png"), // we'll handle logos later
+      companylogo: require("./assets/images/IPVSlogo.png"),
       date: "March 2026 – Present",
+      link: "https://www.ipvs.uni-stuttgart.de/",
       desc: "Working on an open-source JSON Schema editor used at research scale.",
       descBullets: [
         "Developed and maintained UI features like word wrap, search and schema diagram enhancements",
@@ -152,8 +154,9 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Octanics",
-      // companylogo: require("./assets/images/octanicsLogo.png"),
+      companylogo: require("./assets/images/octanicslogo.png"),
       date: "Aug 2023 – Jul 2024",
+      link: "https://octanics.com/",
       desc: "Designed and implemented data-driven dashboards and operational tools for TurboBusiness platform.",
       descBullets: [
         "Reduced web application load times by up to 60% through targeted performance optimization",
@@ -163,8 +166,9 @@ const workExperiences = {
     {
       role: "Front-End Engineer",
       company: "Jetbro Pvt. Ltd.",
-      // companylogo: require("./assets/images/jetbroLogo.png"),
+      companylogo: require("./assets/images/jetbrologo.png"),
       date: "Jun 2022 – Jul 2023",
+      link: "https://www.jetbro.in/",
       desc: "Maintained and enhanced 15+ production web applications across various frontend technologies.",
       descBullets: [
         "Containerized applications using Docker, reducing environment setup time by 70%",
@@ -184,29 +188,39 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Startups & Products",
+  subtitle: "SOME STARTUPS AND PRODUCTS I CONTRIBUTED TO AS A SOFTWARE DEVELOPER",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/dashboard.png"),
+      projectName: "TurboBusinees",
+      projectDesc: "Utilize our effective ERP solution to simplify operations.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://octanics.com"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/beardo.webp"),
+      projectName: "Beardo",
+      projectDesc: "Brand that revolutionized Men's Grooming",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://beardo.in"
+        }
+      ]
+    },
+     {
+      image: require("./assets/images/saffola.webp"),
+      projectName: "Saffola",
+      projectDesc: "Food Service Website",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.saffola.in/"
         }
       ]
     }
@@ -296,11 +310,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Looking for a Software Developer role in Germany. Feel free to reach out for opportunities, collaborations or just to say hi!",
+  number: "+49-15560834263",
+  email_address: "talsaniadevesh29@gmail.com"
 };
 
 // Twitter Section
@@ -310,7 +324,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
